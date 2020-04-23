@@ -11,10 +11,11 @@ namespace Minirechner
         {
         }
 
-        static void Subtrahiere(int zahl1, int zahl2)
+        static int Sub(int zahl1, int zahl2)
         {
-            double erg = zahl1 - zahl2;
-            Console.WriteLine("Das Ergebnis ist: " + erg);
+            int erg = zahl1 - zahl2;
+            Console.WriteLine("Das Ergebnis der Subtraktion ist: " + erg);
+            return erg;
         }
 
         
