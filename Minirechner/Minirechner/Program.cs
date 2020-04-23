@@ -11,10 +11,11 @@ namespace Minirechner
         {
         }
 
-        static void Dividiere(int zahl1, int zahl2)
+        static int Div(int zahl1, int zahl2)
         {
-            double erg = zahl1 / zahl2;
-            Console.WriteLine("Das Ergebnis ist: " + erg);
+            int erg = zahl1 / zahl2;
+            Console.WriteLine("Das Ergebnis der Division ist: " + erg);
+            return erg;
         }
 
     }
