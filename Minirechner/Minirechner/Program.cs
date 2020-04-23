@@ -11,6 +11,7 @@ namespace Minirechner
      
         static void Main(string[] args)
         {
+<<<<<<< HEAD
             Console.WriteLine("Minirechner by HOFER Lukas 4A EL");
             
             Console.WriteLine("Bitte gib Zahl1 ein:");
@@ -48,6 +49,9 @@ namespace Minirechner
                 Console.WriteLine("Bitte seien sie so nett und geben was sinnvolles ein DANKE");
             }
 
+=======
+            Console.Write("HELLO");
+>>>>>>> Addieren
         }
 
        
