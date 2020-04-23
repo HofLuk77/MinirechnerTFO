@@ -10,5 +10,11 @@ namespace Minirechner
         static void Main(string[] args)
         {
         }
+        static void Multiplizieren(int zahl1, int zahl2)
+        {
+            double erg = zahl1 * zahl2;
+            Console.WriteLine("Das Ergebnis ist: " + erg);
+        }
+
     }
 }
