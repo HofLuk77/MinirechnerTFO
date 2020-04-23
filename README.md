@@ -1,0 +1,2 @@
+# MinirechnerTFO
+Minirechner HOFER Lukas
