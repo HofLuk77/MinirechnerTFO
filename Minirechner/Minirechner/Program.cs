@@ -11,6 +11,7 @@ namespace Minirechner
 
         static void Main(string[] args)
         {
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28,6 +29,14 @@ namespace Minirechner
             Console.WriteLine("Das Ergebnis der Addition ist: " + erg);
             return erg;
 >>>>>>> Addieren
+=======
+        }
+        static int Mul(int zahl1, int zahl2)
+        {
+            int erg = zahl1 * zahl2;
+            Console.WriteLine("Das Ergebnis der Multiplikation ist: " + erg);
+            return erg;
+>>>>>>> Multiplizieren
         }
     }
 }
