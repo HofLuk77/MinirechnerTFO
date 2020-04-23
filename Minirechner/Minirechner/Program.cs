@@ -11,9 +11,9 @@ namespace Minirechner
 
         static void Main(string[] args)
         {
-            Ausgabe();
+            Eingabe();
         }
-        static void Ausgabe()
+        static void Eingabe()
         {
             Console.WriteLine("Minirechner by HOFER Lukas 4A EL");
 
@@ -27,7 +27,7 @@ namespace Minirechner
 
             if (menu == "+")
             {
-                Add(zahl1, zahl2);  
+                Add(zahl1, zahl2);
             }
             if (menu == "-")
             {
@@ -45,7 +45,7 @@ namespace Minirechner
             {
                 Console.WriteLine("Bitte seien sie so nett und geben was sinnvolles ein DANKE");
             }
-          
+
             Console.ReadKey();
         }
 
