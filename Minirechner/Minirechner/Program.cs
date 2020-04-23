@@ -8,14 +8,21 @@ namespace Minirechner
     
     class Program
     {
-     
+
         static void Main(string[] args)
         {
+<<<<<<< HEAD
 //<<<<<<< HEAD
 //<<<<<<< HEAD
 //=======
+=======
+            Ausgabe();
+        }
+        static void Ausgabe()
+        {
+>>>>>>> Eingabe
             Console.WriteLine("Minirechner by HOFER Lukas 4A EL");
-            
+
             Console.WriteLine("Bitte gib Zahl1 ein:");
             int zahl1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Bitte gib Zahl2 ein:");
@@ -24,6 +31,7 @@ namespace Minirechner
             Console.WriteLine("\nWelche Rechenart soll ausgeführt werden?: [+,-,/,*]");
             string menu = Console.ReadLine();
 
+<<<<<<< HEAD
             Abfrage(menu, zahl1, zahl2);
             
             Console.ReadKey();
@@ -34,25 +42,35 @@ namespace Minirechner
             if (menu == "+")
             {
                 Addiere(zahl1, zahl2);
-            }
-            else if (menu == "-")
+=======
+            if (menu == "+")
             {
-                Subtrahiere(int zahl1, int zahl2);
+                Add(zahl1, zahl2);  
+>>>>>>> Eingabe
             }
-            else if (menu == "*")
+            if (menu == "-")
             {
-                Multipliziere(int zahl1, int zahl2);
+                Sub(zahl1, zahl2);
             }
-            else if (menu == "/")
+            if (menu == "*")
             {
-                Dividiere(int zahl1, int zahl2);
+                Mul(zahl1, zahl2);
+            }
+            if (menu == "/")
+            {
+                Div(zahl1, zahl2);
             }
             else
             {
                 Console.WriteLine("Bitte seien sie so nett und geben was sinnvolles ein DANKE");
             }
+<<<<<<< HEAD
 //>>>>>>> Eingabe
 
+=======
+          
+            Console.ReadKey();
+>>>>>>> Eingabe
         }
 
        
