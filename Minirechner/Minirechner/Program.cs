@@ -11,9 +11,9 @@ namespace Minirechner
      
         static void Main(string[] args)
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
+//<<<<<<< HEAD
+//<<<<<<< HEAD
+//=======
             Console.WriteLine("Minirechner by HOFER Lukas 4A EL");
             
             Console.WriteLine("Bitte gib Zahl1 ein:");
@@ -28,11 +28,12 @@ namespace Minirechner
             
             Console.ReadKey();
         }
+
         static void Abfrage(string menu, int zahl1, int zahl2)
         {
             if (menu == "+")
             {
-                Addiere(int zahl1, int zahl2);
+                Addiere(zahl1, zahl2);
             }
             else if (menu == "-")
             {
@@ -50,51 +51,51 @@ namespace Minirechner
             {
                 Console.WriteLine("Bitte seien sie so nett und geben was sinnvolles ein DANKE");
             }
->>>>>>> Eingabe
+//>>>>>>> Eingabe
 
         }
 
        
 
        
-=======
+//=======
             
-        }
+     //   }
 
-<<<<<<< HEAD
-        static void Addiere(int zahl1, int zahl2)
+//<<<<<<< HEAD
+        static int Addiere(int zahl1, int zahl2)
         {
             double erg = zahl1 + zahl2;
             Console.WriteLine("Das Ergebnis ist: " + erg);
         }
 
-<<<<<<< HEAD
->>>>>>> Addieren
-=======
-        static void Subtrahiere(int zahl1, int zahl2)
+//<<<<<<< HEAD
+//>>>>>>> Addieren
+//=======
+        static int Subtrahiere(int zahl1, int zahl2)
         {
             double erg = zahl1 - zahl2;
             Console.WriteLine("Das Ergebnis ist: " + erg);
         }
-<<<<<<< HEAD
+//<<<<<<< HEAD
 
         
->>>>>>> Subtrahieren
-=======
-        static void Dividiere(int zahl1, int zahl2)
+//>>>>>>> Subtrahieren
+//=======
+        static int Dividiere(int zahl1, int zahl2)
         {
             double erg = zahl1 / zahl2;
             Console.WriteLine("Das Ergebnis ist: " + erg);
         }
 
->>>>>>> Dividieren
-=======
-        static void Multiplizieren(int zahl1, int zahl2)
+//>>>>>>> Dividieren
+//=======
+        static int Multiplizieren(int zahl1, int zahl2)
         {
             double erg = zahl1 * zahl2;
             Console.WriteLine("Das Ergebnis ist: " + erg);
         }
 
->>>>>>> Multiplizieren
+//>>>>>>> Multiplizieren
     }
 }
