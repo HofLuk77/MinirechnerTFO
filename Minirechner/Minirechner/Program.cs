@@ -15,6 +15,7 @@ namespace Minirechner
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         static int Sub(int zahl1, int zahl2)
         {
@@ -37,6 +38,13 @@ namespace Minirechner
             Console.WriteLine("Das Ergebnis der Multiplikation ist: " + erg);
             return erg;
 >>>>>>> Multiplizieren
+=======
+        static int Div(int zahl1, int zahl2)
+        {
+            int erg = zahl1 / zahl2;
+            Console.WriteLine("Das Ergebnis der Division ist: " + erg);
+            return erg;
+>>>>>>> Dividieren
         }
     }
 }
