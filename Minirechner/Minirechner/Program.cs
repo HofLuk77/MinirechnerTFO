@@ -67,6 +67,16 @@ namespace Minirechner
             Console.WriteLine("Das Ergebnis ist: " + erg);
         }
 
+<<<<<<< HEAD
 >>>>>>> Addieren
+=======
+        static void Subtrahiere(int zahl1, int zahl2)
+        {
+            double erg = zahl1 - zahl2;
+            Console.WriteLine("Das Ergebnis ist: " + erg);
+        }
+
+        
+>>>>>>> Subtrahieren
     }
 }
