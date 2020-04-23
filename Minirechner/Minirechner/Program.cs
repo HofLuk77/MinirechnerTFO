@@ -61,6 +61,7 @@ namespace Minirechner
             
         }
 
+<<<<<<< HEAD
         static void Addiere(int zahl1, int zahl2)
         {
             double erg = zahl1 + zahl2;
@@ -78,5 +79,13 @@ namespace Minirechner
 
         
 >>>>>>> Subtrahieren
+=======
+        static void Dividiere(int zahl1, int zahl2)
+        {
+            double erg = zahl1 / zahl2;
+            Console.WriteLine("Das Ergebnis ist: " + erg);
+        }
+
+>>>>>>> Dividieren
     }
 }
