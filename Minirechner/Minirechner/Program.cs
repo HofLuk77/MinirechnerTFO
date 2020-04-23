@@ -29,19 +29,19 @@ namespace Minirechner
         {
             if (menu == "+")
             {
-                
+                Addiere(int zahl1, int zahl2);
             }
             else if (menu == "-")
             {
-
+                Subtrahiere(int zahl1, int zahl2);
             }
             else if (menu == "*")
             {
-
+                Multipliziere(int zahl1, int zahl2);
             }
             else if (menu == "/")
             {
-
+                Dividiere(int zahl1, int zahl2);
             }
             else
             {
