@@ -11,44 +11,37 @@ namespace Minirechner
 
         static void Main(string[] args)
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
+            Eingabe();
+        }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
         static int Sub(int zahl1, int zahl2)
         {
             int erg = zahl1 - zahl2;
             Console.WriteLine("Das Ergebnis der Subtraktion ist: " + erg);
             return erg;
->>>>>>> Subtrahieren
-=======
+        }
+
         static int Add(int zahl1, int zahl2)
         {
             int erg = zahl1 + zahl2;
             Console.WriteLine("Das Ergebnis der Addition ist: " + erg);
             return erg;
->>>>>>> Addieren
-=======
         }
+
         static int Mul(int zahl1, int zahl2)
         {
             int erg = zahl1 * zahl2;
             Console.WriteLine("Das Ergebnis der Multiplikation ist: " + erg);
             return erg;
->>>>>>> Multiplizieren
-=======
+        }
+
         static int Div(int zahl1, int zahl2)
         {
             int erg = zahl1 / zahl2;
             Console.WriteLine("Das Ergebnis der Division ist: " + erg);
-            return erg;
->>>>>>> Dividieren
-=======
-            Eingabe();
+            return erg;           
         }
+
         static void Eingabe()
         {
             Console.WriteLine("Minirechner by HOFER Lukas 4A EL");
@@ -83,7 +76,6 @@ namespace Minirechner
             }
 
             Console.ReadKey();
->>>>>>> Eingabe
         }
     }
 }
